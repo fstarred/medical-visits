@@ -20,6 +20,12 @@ Then start containers with:
 docker compose -f src/main/docker/docker-compose.yaml up
 ```
 
+## Diagrams
+
+**Class diagram**
+
+![](docs/class-diagram.png)
+
 ## Curl examples 
 
 **Add new patient**
