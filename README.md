@@ -83,3 +83,8 @@ The **patient** collection follow the embedded document pattern that applies to 
 See also:
 
 https://www.mongodb.com/docs/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/
+
+**Improvement points**
+
+* Separate database entities from rest model interfaces
+* Add specific API Gateway components (i.e. adopt Backend For Frontend pattern) for different clients (mobile, web application, 3rd part library)
