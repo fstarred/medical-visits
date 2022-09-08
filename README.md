@@ -26,6 +26,13 @@ docker compose -f src/main/docker/docker-compose.yaml up
 
 ![](docs/class-diagram.png)
 
+**NOTE**
+The **patient** collection follow the embedded document pattern that applies to One-to-Many Relationship.
+
+See also:
+
+https://www.mongodb.com/docs/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/
+
 ## Curl examples 
 
 **Add new patient**
@@ -76,13 +83,6 @@ curl --location --request PUT 'http://localhost:8080/patients/<ObjectId>/visits/
 ```
 curl --location --request GET 'http://localhost:8080/patients/<ObjectId>/visits/<index>'
 ```
-
-**NOTE**
-The **patient** collection follow the embedded document pattern that applies to One-to-Many Relationship.
-
-See also:
-
-https://www.mongodb.com/docs/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/
 
 **Improvement points**
 
