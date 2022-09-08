@@ -21,7 +21,6 @@ public class PatientsResourceTest {
         final var patient = new Patient();
         patient.setName("Mario");
         patient.setSurname("Rossi");
-        patient.setBirthDate(LocalDate.of(1979, Month.APRIL, 1));
         patient.setSocialSecurityNumber("AA123456Z");
 
         given()

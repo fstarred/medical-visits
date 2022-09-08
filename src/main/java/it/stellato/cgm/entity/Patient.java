@@ -30,7 +30,7 @@ public class Patient {
     @NotEmpty
     @Length(min = 2)
     private String surname;
-    @NotNull
+
     @JsonbDateFormat("yyyy-MM-dd")
     private LocalDate birthDate;
     @NotEmpty
