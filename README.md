@@ -48,6 +48,12 @@ See also:
 
 https://www.mongodb.com/docs/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/
 
+## Open API
+
+For the API documentation, check this URL:
+
+http://localhost:8080/q/swagger-ui/
+
 ## Curl examples 
 
 **Add new patient**
