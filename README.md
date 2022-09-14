@@ -20,6 +20,21 @@ Then start containers with:
 docker compose -f src/main/docker/docker-compose.yaml up
 ```
 
+## Testing application
+
+### Unit and Integration tests
+
+Launch in a shell the command 
+
+```shell script
+./mvnw verify
+```
+
+**Note**
+
+Integration tests make use of Mongodb docker container, so you must have a working docker container environment.
+
+
 ## Diagrams
 
 **Class diagram**
