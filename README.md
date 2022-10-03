@@ -1,4 +1,4 @@
-# stellato Project
+# medical-visits Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
