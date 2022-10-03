@@ -20,6 +20,11 @@ Then start containers with:
 docker compose -f src/main/docker/docker-compose.yaml up
 ```
 
+## Tech stack
+
+* Java 17 with Quarkus
+* Mongo
+
 ## Testing application
 
 ### Unit and Integration tests
@@ -33,7 +38,6 @@ Launch in a shell the command
 **Note**
 
 Integration tests make use of Mongodb docker container, so you must have a working docker container environment.
-
 
 ## Diagrams
 
